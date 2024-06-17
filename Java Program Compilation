@@ -1,0 +1,20 @@
+Java Program Execution - Java program execution is completed with the help of the following tools.
+
+Classloader - It loads the class file for JVM execution.
+Bytecode Verifier - It verifies the bytecode and restricts the objects from illegal access to other parts of the system.
+Interpreter - It read the bytecode instructions and executes them line by line.
+
+Java Virtual Machine ( JVM)
+JVM is called an abstract virtual machine because it does not exist physically, but it is a kind of specification that provides a secure runtime environment to execute the bytecode generated through the compiler, JVM actually invokes the main( ) method present in the Java program.
+JVM is a part of the JRE(Java Runtime Environment).
+Java applications are called WORA (Write once, run anywhere). This means a programmer can develop Java code on one system and can expect it to run on any other Java-enabled system without any adjustment. This is all possible because of JVM.
+
+Java Runtime Environment (JRE)
+JRE stands for “Java Runtime Environment” and may also be written as “Java RTE.” The Java Runtime Environment provides the minimum requirements for executing a Java application, it consists of the Java Virtual Machine (JVM), core classes, and supporting files.
+
+A specification where the working of Java Virtual Machine is specified. But implementation provider is independent to choose the algorithm. Its implementation has been provided by Sun and other companies.
+An implementation is a computer program that meets the requirements of the JVM specification.
+Runtime Instance Whenever you write a java command on the command prompt to run the java class, an instance of JVM is created.
+
+Java Development Kit (JDK) 
+Java Development Kit (in short JDK) is a Kit that provides the environment to develop and execute. The JDK contains a private Java Virtual Machine (JVM), interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of a Java Application.
