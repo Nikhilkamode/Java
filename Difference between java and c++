@@ -1,0 +1,20 @@
+Comparison Metric	C++	Java
+Domain and Usage	C++ is mainly used for system programming.	Java is mainly used for building desktop, web, and Mobile Applications.
+ 
+Compiler and Interpreter	In C++, the program is only compiled and converted into machine code. That is why it is platform dependent.
+In Java , program once compiled converted into bytecode, then interpreter reads the bytecode stream to execute line by line through JVM.That is why it is platform-independent
+
+Pointers	C++ supports pointers for memory allocation, You can write pointer programs.	Java supports pointers internally, however you can not write pointer programs.
+Structure and Union
+
+C++ have Structures and Unions.
+ 	Java doesn’t have these, however, you can implement this using classes.
+
+Thread Support	C++ doesn’t have inbuilt thread support, you have to use a third-party library.	
+Java has built-in thread support.
+ 
+Documentation Comment	C++ doesn’t have documentation comments.	Java has documentation comments, which are useful for maintaining the code.
+
+Call by value and reference	C++ supports both call-by-value and call-by-reference.	Java supports only call-by-value.
+
+Operator Overloading	C++ supports operator overloading.	Java doesn’t have support operator overloading.
